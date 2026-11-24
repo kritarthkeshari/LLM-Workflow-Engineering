@@ -1,0 +1,18 @@
+{
+  "name": "reliable-ai-workflow",
+  "version": "1.0.0",
+  "description": "Session 7 - AI Engineering: a reliable LLM-powered support-ticket triage workflow using Claude Haiku 5.5",
+  "type": "module",
+  "scripts": {
+    "task1": "node --env-file=.env task1-naive.mjs",
+    "task2": "node --env-file=.env task2-prompting.mjs",
+    "task3": "node --env-file=.env task3-structured.mjs",
+    "task4": "node --env-file=.env task4-validation.mjs",
+    "task5": "node --env-file=.env task5-fallback.mjs",
+    "final": "node --env-file=.env final-workflow.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "zod": "^4.6.7"
+  }
+}
